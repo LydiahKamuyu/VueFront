@@ -11,13 +11,14 @@
 <body>
     <div id="content" class="container">
         <h>{{pageTitle}}</h>
-        <p>welcome to the wonderful world of vue js</p>
+        <p>{{content}}</p>
     </div>
     <script>  
         Vue.createApp({
             data() {
                 return {
-                    pageTitle: 'Hello, Vue'
+                    pageTitle: 'Hello, Vue',
+                   // content: "welcome to the wonderful world of vue js"
                 };
             }
 
